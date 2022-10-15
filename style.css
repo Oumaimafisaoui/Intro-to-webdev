@@ -1,0 +1,51 @@
+/* body {
+    color: purple;
+}
+
+.info {
+    color: green;
+}
+
+#pet1 {
+    line-height: 20em;
+} */
+
+:root{
+    --brown: rgba(179, 127, 59, 0.766);
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#msg {
+    font-family: monospace;
+}
+
+#cat_photo {
+    border-radius: 50%;
+}
+
+.light-theme {
+    color: var(--black);
+    background: var(--brown)
+}
+
+.dark-theme {
+    color: var(--white);
+    background: var(--black);
+}
